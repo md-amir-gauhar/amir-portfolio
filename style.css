@@ -100,6 +100,7 @@ h3 {
 .section-tech {
   margin: 2rem auto;
   max-width: 950px;
+  padding: 1rem;  
 }
 
 .section-tech h1 {
@@ -121,3 +122,91 @@ h3 {
   height: auto;
   object-fit: contain;
 }
+
+.section-project {
+  margin: 2rem auto;
+  max-width: 950px;
+  background-color: var(--off-white);
+  padding: 1rem;
+}
+
+.section-project h1 {
+  text-align: center;
+}
+
+.section-project .projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.section-project .project {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px auto;
+  background-color: white;
+}
+
+.section-project .project h5 {
+  font-size: 16px;
+  font-weight: 200;
+  margin: 10px 0;
+}
+
+.section-project .project a {
+  font-size: 16px;
+  font-weight: 200;
+  margin: 10px 0 5px 0;
+  text-decoration: none;
+}
+
+.section-project .project .project_image {
+  width: 350px;
+  height: auto;
+  object-fit: contain;
+}
+
+.section-blogs {
+  margin: 2rem auto 0rem auto;
+  max-width: 950px;
+  background-color: var(--off-white);
+  height: 100px;
+  padding: 1rem;
+}
+
+.section-blogs h1 {
+  text-align: center;
+}
+
+.section-blogs .blogs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px auto;
+  font-size: 1.2rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  background-color: gray;
+  font-size: 20px;
+}
+
+footer .social {
+  margin: 10px;
+  font-size: larger;
+  padding: 10px;
+}
+
+footer .social a {
+  margin: 0 5px;
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+}
+
