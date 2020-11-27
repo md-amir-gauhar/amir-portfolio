@@ -100,7 +100,7 @@ h3 {
 .section-tech {
   margin: 2rem auto;
   max-width: 950px;
-  padding: 1rem;  
+  padding: 1rem;
 }
 
 .section-tech h1 {
@@ -210,3 +210,52 @@ footer .social a {
   color: black;
 }
 
+@media (max-width: 768px) {
+  .header {
+    background-color: black;
+    color: white;
+  }
+
+  .header-image {
+    width: 250px;
+    display: block;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  hr {
+    display: none;
+  }
+
+  .about, .section-tech, .section-project, .section-blogs {
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .about p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .tech img {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+
+  .section-blogs {
+    background-color: white;
+  }
+
+  footer > p{
+    padding: 10px;
+  }
+
+  .social {
+    margin: 5px;
+  }
+}
