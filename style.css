@@ -143,28 +143,52 @@ h3 {
 .section-project .project {
   display: flex;
   align-items: center;
+  width: 350px;
   flex-direction: column;
   margin: 15px auto;
-  background-color: white;
+  border-radius: 15px;
 }
 
-.section-project .project h5 {
-  font-size: 16px;
-  font-weight: 200;
+.section-project .project_title {
+  font-size: 18px;
+  font-weight: 900;
   margin: 10px 0;
 }
 
 .section-project .project a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 200;
   margin: 10px 0 5px 0;
   text-decoration: none;
+  color: black;
 }
 
 .section-project .project .project_image {
-  width: 350px;
+  width: 95%;
   height: auto;
   object-fit: contain;
+}
+
+.section-project .project-description {
+  text-align: center;
+  margin: 10px 0 ;
+  font-size: 16px;
+  font-weight: 200;
+  border-bottom: 1px solid black;
+}
+
+.section-project .btn-moreProjects {
+  display: block;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 2rem;
+  outline: none;
+  background-color: black;
+}
+
+.section-project .btn-moreProjects a {
+  color: white;
 }
 
 .section-blogs {
@@ -257,5 +281,15 @@ footer .social a {
 
   .social {
     margin: 5px;
+  }
+
+  .section-project .btn-moreProjects {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 2rem;
+    outline: none;
+    background-color: black;
   }
 }
