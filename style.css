@@ -249,6 +249,49 @@ footer .social a {
   color: black;
 }
 
+.blogs {
+  width: 95%;
+  margin: auto;
+  height: 70vh;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.blog-title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.blog-date {
+  font-size: smaller;
+  font-weight: 100;
+  color: gray;
+}
+
+.blog-description {
+  margin: 10px 0;
+  padding: 10px;
+  font-weight: 200;
+}
+
+.blog-button-read {
+  width: 100px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.blog-button-read a {
+  color: white;
+}
+
 @media (max-width: 768px) {
   .header {
     background-color: black;
