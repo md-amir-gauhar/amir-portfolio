@@ -210,21 +210,31 @@ h3 {
   margin: 2rem auto 0rem auto;
   max-width: 950px;
   background-color: var(--off-white);
-  height: 100px;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .section-blogs h1 {
   text-align: center;
 }
 
-.section-blogs .blogs {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 10px auto;
+.section-blogs p {
+  text-align: center;
   font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.section-blogs button {
+  display: block;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 2rem;
+  outline: none;
+  background-color: black;
+}
+
+.section-blogs a {
+  color: white;
 }
 
 footer {
