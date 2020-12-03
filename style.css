@@ -29,20 +29,22 @@ a {
   font-weight: 700;
 }
 
-.nav-list {
+nav .nav-list {
   list-style: none;
   display: flex;
   flex-direction: row-reverse;
+  margin-right: 20px;
+}
+nav .nav-list-items {
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
-.nav-list-items {
-  padding: 1rem;
-}
-
-.nav-list-items a {
+nav .nav-list-items a {
   color: var(--primary);
-  font-size: large;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: 'kalam', cursive;
 }
 
 .nav-list-items a:hover {
@@ -273,6 +275,14 @@ footer .social a {
     width: 100%;
     border-radius: 0;
     margin: 0;
+  }
+
+  nav .nav-list-items a {
+    padding: 7px;
+    color: var(--primary);
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-family: 'kalam', cursive;
   }
 
   .about p {
