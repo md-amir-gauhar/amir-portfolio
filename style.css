@@ -305,9 +305,10 @@ footer .social a {
 }
 
 .blog-footer {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
+  z-index: 0;
 }
 
 @media (max-width: 768px) {
@@ -378,5 +379,15 @@ footer .social a {
     border-radius: 2rem;
     outline: none;
     background-color: black;
+  }
+}
+
+
+@media (min-width: 998px) {
+  .blog-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
   }
 }
