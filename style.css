@@ -260,22 +260,31 @@ footer .social a {
 }
 
 .blogs {
-  width: 95%;
-  margin: auto;
-  height: 70vh;
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
 }
 
 .blog {
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
-  padding: 10px;
-  border-bottom: 1px solid black;
+  gap: 10px;
+  width: 420px;
+  margin: 0 auto;
+  margin-top: 10px
+}
+
+.blog img{
+  width: 420px;
+  height: auto;
 }
 
 .blog-title {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .blog-date {
@@ -284,22 +293,21 @@ footer .social a {
   color: gray;
 }
 
-.blog-description {
-  margin: 10px 0;
+.blog-link {
+  border: 1px solid black;
   padding: 10px;
-  font-weight: 200;
+  text-align: center;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 180px;
+  border-radius: 20px;
 }
 
-.blog-button-read {
-  width: 100px;
-  padding: 10px;
-  font-size: 16px;
-  background-color: black;
-  border-radius: 10px;
-}
-
-.blog-button-read a {
-  color: white;
+.blog-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
