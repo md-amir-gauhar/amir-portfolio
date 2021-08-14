@@ -384,6 +384,11 @@ footer .social a {
     margin-left: auto;
     margin-bottom: 10px;
   }
+
+  .blog-link {
+    font-size: 1rem;
+    width: 140px;
+  }
 }
 
 
